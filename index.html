@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yunus İNAL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            background-color: #b8ddb8;
+            height: 100%;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+        }
+        article {
+            background: #d7d7d7;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        video {
+            max-width: fit-content;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background: #35424a;
+            color: #ffffff;
+            bottom:0%;
+            width: 100%;
+            position: fixed;
+           
+           
+        }
+        .navbar {
+            background-color: #35424a;
+            overflow: hidden;
+            height: 25;
+        }
+        
+        .navbar a {
+            float: right;
+            display: box;
+            color: white;
+            text-align: right;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar p {
+            float: left;
+            padding-left: 25px;
+            display: box;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+         
+        .navbar a:hover {
+            background-color: #35424a;
+            color: rgb(207, 54, 54);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+            grid-gap: 10px; 
+            
+        }
+        .grid-item {
+            background-color: #b8ddb8;
+            text-align: center;
+            align-items: center;
+            color: rgb(12, 10, 10);
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    
+<header>
+   
+    <div class="navbar">
+        <p> BLOGUMA HOŞGELDİNİZ </p>
+        <a href="./index.html">Anasayfa</a>
+        <a href="./hakkimda.html">Hakkımda</a> 
+        <a href="./iletisim.html">İletişim</a>
+    </div>
+  
+</header>
+
+<div style= "display: flex; /* Flexbox kullanarak yan yana yerleştirme */
+            align-items: center; /* Dikeyde ortalama */">
+<h2 style="font-family: Copperplate, Papyrus, fantasy; font-size: 40px;margin-right:200px;margin-left:25px"><i>  Günün sözü </i></h2>
+<p style="font-family: Copperplate, Papyrus, fantasy;font-size: 30px;margin:0"> "Kod yalan söylemez, yorumlar bazen söyler." <br> - Ron Jeffries</p>
+
+</div>
+
+<article>
+    <div class="grid-container">
+        <div class="grid-item">
+            <p>Fotoğraf çekmeyi severim burda da en sevdiğim doğa fotoğrafını görüyorsunuz.(Övünmek gibi olmasın da ben çektim) </p>
+            <img width="200" height="395" src="./11.jpeg">
+        </div>
+
+        <div class="grid-item">
+            <p>Bu videoda Yunus İnal kanalındaki eşsiz videolardan birine göz atıyoruz. </p>
+            <iframe width="714" height="314" src="https://www.youtube.com/embed/YVR113_Zmak" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </div>
+      
+    </div>
+    
+</article>
+
+
+
+<footer>
+    <p>&copy; All rights reserved to Yunus İnal  2111012011</p>
+</footer>
+
+</body>
+
+</html>
+  

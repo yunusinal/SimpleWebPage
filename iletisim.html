@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            background-color: #b8ddb8;
+            height: 100%;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            background: #35424a;
+            color: #ffffff;
+            bottom:0%;
+            width: 100%;
+            position: fixed;
+           
+            
+        }
+        .navbar {
+            background-color: #35424a;
+            overflow: hidden;
+        }
+        
+        .navbar a {
+            float: right;
+            display: box;
+            color: white;
+            text-align: right;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar p {
+            float: left;
+            padding-left: 25px;
+            display: box;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+         
+        .navbar a:hover {
+            background-color: #35424a;
+            color: rgb(207, 54, 54);
+        }
+
+        .container {
+    display: flex;
+    align-items: center; /* Dikey ortalama */
+}
+
+form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+   
+        <div class="navbar">
+            <p> BLOGUMA HOŞGELDİNİZ </p>
+            <a href="./main.html">Anasayfa</a>
+            <a href="./hakkimda.html">Hakkımda</a> 
+            <a href="./iletisim.html">İletişim</a>
+        </div>
+      
+    </header>
+
+   
+    
+ <h2 style= "font-family: Copperplate, Papyrus, fantasy; font-size: 40px;margin-right:200px;margin-left:25px"><i> Iletisim Adreslerim </i></h2>
+  
+ 
+ <div class="container">
+    <p style="font-size: 25px;margin-left: 41px;" >Linkedin: <a href="https://www.linkedin.com/in/yunusinal/"> Yunus inal  </a> <br><br> Mail: yunusinal00@gmail.com</p> 
+    <form style="width: 100%;" action="" method="post">
+        <label  for="name">Adınız:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    
+        <button type="submit">Gönder</button>
+    </form>
+ </div>
+
+
+
+    <footer>
+        <p>&copy; All rights reserved to Yunus İnal  2111012011</p>
+    </footer>
+
+</body>
+</html>
